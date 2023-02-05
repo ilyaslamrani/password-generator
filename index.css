@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 90%;
+  width: 90%;
+}
+#passwords {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.password {
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  background-color: #273549;
+  color: #4adf86;
+  margin: 10px;
+}
+#secondary-title {
+  color: #4adf86;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#main-title {
+  text-align: LEFT;
+  width: 230px;
+}
+#copyButton1,
+#copyButton2 {
+  all: none;
+  font-size: 25px;
+
+  list-style: none;
+  background-color: #273549;
+
+  border: none;
+  z-index: 3;
+  transition: all 400ms ease-in-out;
+}
+#copyButton1:active,
+#copyButton2:active {
+  font-size: 20px;
+  background-color: #4adf8656;
+  border-radius: 2px;
+}
+#copyButton2 {
+  position: absolute;
+  right: 34%;
+}
+#copyButton1 {
+  position: absolute;
+  right: 51%;
+}
+#description {
+  color: #d5d4d8;
+  font-size: 18px;
+}
+#generator {
+  background-color: #4adf86;
+  border: 1px solid #4adf86;
+  border-radius: 5px;
+  padding: 14px;
+  margin: 5px;
+}
+#copybuttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
